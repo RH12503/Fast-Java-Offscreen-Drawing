@@ -45,6 +45,9 @@ public class SimpleExample {
 
         // Write the image to a file
         ImageIO.write(canvas.toImage(), "png", new File("result.png"));
+        
+        // Exit
+        System.exit(1);
     }
 }
 ```
