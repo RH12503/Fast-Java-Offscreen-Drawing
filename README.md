@@ -1,5 +1,5 @@
 # Fast-Java-Offscreen-Drawing
-A small library which provides fast 2d offscreen rendering for Java. Up to 50x faster than a BufferedImage. This library is experimental and is intended for personal use. 
+A small library which provides fast 2d offscreen rendering for Java. Up to 50x faster than a BufferedImage. This library is experimental and intended for personal use. 
 
 ## Simple usage
 Every rendering operation goes through the `DrawingCanvas` interface, which currently looks like this:
