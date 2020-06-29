@@ -52,6 +52,6 @@ public class SimpleExample {
 }
 ```
 ## Reasons to use over OpenGL and limitations
-OpenGL is undoubtedly the fastest way to render in both 2D and 3D on the GPU. However, one disadvantage is that due to the pipeline, obtaining pixels is very slow. I made this library for a genetic algorithm project which needed to constantly access pixels, so use a Pixel Buffer Object wasn't an option. 
+OpenGL is undoubtedly the fastest way to render in both 2D and 3D on the GPU. However, one disadvantage is that due to the pipeline, obtaining pixels is very slow. I made this library for a genetic algorithm project which needed to constantly access pixels, so using a Pixel Buffer Object wasn't an option. 
 
-Of course, the most obvious limitation is that it renders offscreen. This narrows down this libraries use cases greatly, which was made specifically for personal use. Another limitation is that strokes and anti-aliasing are not supported, but that may change the future. 
+Of course, the most obvious limitation is that it renders offscreen. This narrows down this library's use cases, which was made specifically for personal use. Another limitation is that strokes and anti-aliasing are not supported, but that may change the future. 
